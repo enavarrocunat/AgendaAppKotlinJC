@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
-//    alias(libs.plugins.googleServices)
+    alias(libs.plugins.googleServices)
 }
 
 android {
@@ -60,6 +60,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    //firebase user cf@gmail
     implementation(libs.firebaseAuth) //Autenticación de usuarios
     implementation(libs.firebaseFirestore) //Base datos
     implementation(libs.navigation) //Navegación entre pantallas
