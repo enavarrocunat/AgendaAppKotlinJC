@@ -11,6 +11,7 @@ import com.enavarrocunat.agendaappkotlin_jc.viewmodels.LoginViewModel
 import com.enavarrocunat.agendaappkotlin_jc.viewmodels.NotesViewModel
 import com.enavarrocunat.agendaappkotlin_jc.viewmodels.RegisterViewModel
 import com.enavarrocunat.agendaappkotlin_jc.views.login.LoginView
+import com.enavarrocunat.agendaappkotlin_jc.views.notes.HomeView
 import com.enavarrocunat.agendaappkotlin_jc.views.register.RegisterView
 
 @Composable
@@ -29,7 +30,7 @@ fun NavManager(
             RegisterView(navController,registerVM)
         }
         composable(HomeRoute) {
-           // Homeview(navController,loginVM)
+            HomeView(navController,notesVM)
         }
     }
 
