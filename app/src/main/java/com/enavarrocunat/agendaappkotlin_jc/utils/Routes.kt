@@ -5,5 +5,6 @@ class Routes {
         const val LoginRoute = "Login"
         const val RegisterRoute = "Register"
         const val HomeRoute = "Home"
+        const val CheckSessionRoute = "CheckSession"
     }
 }
